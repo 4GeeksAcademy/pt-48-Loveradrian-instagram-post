@@ -1,0 +1,52 @@
+body {
+    background: grey;
+}
+
+.post {
+    width: 350px;
+    margin: auto;
+
+}
+
+
+.container-y {
+    width: 100%;
+    padding: 0.5rem;
+    background: white;
+    
+}
+
+.vertical {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+    width: 100%;
+     
+}
+
+.horizontal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 0.5rem; 
+}
+
+.icon-buttons-horizontal{
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 0.5rem; 
+}
+
+.icon-buttons-left {
+    margin: 0 0 5px 5px;
+    
+    
+}
+
+#bookmark {
+    margin: 0 5px 5px 0;
+}
